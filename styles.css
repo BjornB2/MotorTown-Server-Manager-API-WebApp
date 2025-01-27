@@ -47,10 +47,18 @@ form input:focus {
 form .checkbox-container {
     display: flex;
     align-items: center;
+    gap: 10px; /* Voeg ruimte toe tussen de checkbox en het label */
+    margin-top: 10px; /* Zorg voor wat ruimte boven de checkbox */
 }
 
-form .checkbox-container input {
-    margin-right: 10px;
+form .checkbox-container input[type="checkbox"] {
+    width: 16px; /* Stel de grootte van de checkbox in */
+    height: 16px;
+}
+
+form .checkbox-container label {
+    font-size: 14px;
+    color: #ffffff;
 }
 
 form button {
@@ -72,6 +80,7 @@ form .error {
     color: #ff5c5c;
     font-size: 14px;
 }
+
 
 /* Dashboard Styles */
 header {

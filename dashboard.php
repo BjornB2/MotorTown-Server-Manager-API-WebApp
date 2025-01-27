@@ -60,9 +60,8 @@ if (isset($_GET['logout'])) {
     </main>
 
     <footer>
-        <button id="debug-toggle">Debug Mode</button>
+        <button id="debug-toggle">Debug Info</button>
         <div id="debug-box" style="display: none;">
-            <h3>Debug Logs</h3>
             <pre id="debug-output"></pre>
         </div>
     </footer>
