@@ -5,7 +5,7 @@ A web-based tool for managing your **Motor Town** game server. This app allows y
 - View and manage the **banned player list**.
 - Perform actions like **kicking, banning**, and **unbanning** players directly from the dashboard.
 
-![online player list](https://github.com/BjornB2/MotorTown-Server-Manager-API-WebApp/blob/main/screenshots/online.png?raw=true
+![online player list](https://github.com/BjornB2/MotorTown-Server-Manager-API-WebApp/blob/main/screenshots/online.png)
 
 ---
 
